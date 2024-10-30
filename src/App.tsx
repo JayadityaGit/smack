@@ -13,7 +13,7 @@ const App = () => {
   };
 
 
-  let arr = ["she says bro, maybe she will change her mind later", "she is like 4 years older, but age does not matter", "I will never give up on her", "I dont care about stress, I just want to impress her", "maybe she is an introvert, I have a chance lmao", "I will try to meet her daily, might start to feel secure", "she talks sweet, maybe it's easy", "she looks innocent, maybe she is naive lol"];
+  let arr = ["she says \"bro\", maybe she will change her mind later", "she is like 4 years older, but age does not matter", "I will never give up on her", "I dont care about stress, I just want to impress her", "maybe she is an introvert, I have a chance lmao", "I will try to meet her daily, might start to feel secure", "she talks sweet, maybe it's easy", "she looks innocent, maybe she is naive lol"];
 
 
   const [punchCounter, setPunchCounter] = useState(0);
