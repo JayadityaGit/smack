@@ -42,6 +42,8 @@ const App = () => {
 
             <div className="space-y-4">
 
+            <div className="flex flex-col">
+
             <button className="bg-orange-600 hover:bg-orange-800 w-80 py-3 rounded-md" onClick={
 
               ()=>{
@@ -60,7 +62,9 @@ const App = () => {
               
               }}>Smack!👋</button>
 
-              { punchCounter >= 8 &&  <button className="bg-yellow-600 w-80 py-3 rounded-md"><a href="https://www.youtube.com/watch?v=r_9jAG4z-iA" target="_blank">random yt video which felt relatable</a></button>}
+              { punchCounter >= 8 &&  <button className="bg-yellow-600 w-80 py-3 rounded-md"><a href="https://www.youtube.com/watch?v=r_9jAG4z-iA" target="_blank">enough, this might help</a></button>}
+
+              </div>
 
             <p className="font-bold">Smacks: {punchCounter}</p>
 
