@@ -60,6 +60,8 @@ const App = () => {
               
               }}>Smack!👋</button>
 
+              { punchCounter >= 8 &&  <button className="bg-yellow-600 w-80 py-3 rounded-md"><a href="https://www.youtube.com/watch?v=r_9jAG4z-iA" target="_blank">random yt video which felt relatable</a></button>}
+
             <p className="font-bold">Smacks: {punchCounter}</p>
 
             <p>Made with 😂 <a href="https://github.com/JayadityaGit" className="font-semibold underline" target="_blank">@Jayaditya</a></p>
