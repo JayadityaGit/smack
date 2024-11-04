@@ -27,8 +27,8 @@ const App = () => {
 
 
       <div className="space-y-3 lg:space-y-5">
-        <p className="font-bold text-3xl pt-14 lg:text-5xl">👋Smack Him💥</p>
-        <p>help him to get back to his senses! 😭</p>
+        <p className="font-bold text-3xl pt-14 lg:text-5xl">👋Smack Me💥</p>
+        <p>help me get back to my senses</p>
       </div>
             <button className={`quotes text-xs rounded-3xl bg-gradient-to-r from-violet-200 to-pink-200 text-black px-4 py-4 ${
            punch ? 'animate-slide-up-fade' : ''
